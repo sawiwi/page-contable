@@ -5,12 +5,12 @@ module.exports = {
     extend: {
       colors: {
         primary:{
-          default:'#0000',
-          opacity:"#0000d5",
+          default:'#EABE3F',
+          opacity:"#EABE3Fd5",
         },
         secondary:{
-          default:'#ffff',
-          opacity:'#ffffd5'
+          default:'#f2f2f2',
+          opacity:'#f2f2f2d5'
         },
         success:{ 
           default:"#1111",
