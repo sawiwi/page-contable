@@ -13,7 +13,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="p-8 max-w-[1260px] mx-auto">
+      <section className="p-8 max-w-[1200px] mx-auto">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 items-stretch">
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm ">
             <img src="https://source.unsplash.com/640x480/?3" alt="" className="h-80 aspect-video" />
