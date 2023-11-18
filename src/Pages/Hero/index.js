@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Hero = () => {
-  const color = 'bg-[#07031F]';
+  const color = 'bg-[#070707]';
   return (
     <>
       <div className={`min-h-[616px] ${color}`}>
@@ -11,7 +11,7 @@ const Hero = () => {
               <p className="mx-1 max-w-xl sm:text-3xl/relaxed font-semibold">
                 Servicios de contabilidad
               </p>
-              <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-bold text-transparent sm:text-5xl pb-5">
+              <h1 className="bg-gradient-to-r from-[#EABE3F] via-[#732802] to-[#431600] bg-clip-text text-3xl font-bold text-transparent sm:text-5xl pb-5">
                 Déjanos la contabilidad a nosotros y concéntrate en tu negocio
               </h1>
 
@@ -21,13 +21,13 @@ const Hero = () => {
 
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <a
-                  className="block w-full rounded border border-[#55D6C2] px-12 py-3 text-sm font-medium text-white hover:bg-[#55D6C2] focus:outline-none focus:ring active:bg-[#55D6C2] sm:w-auto transition-all duration-500"
+                  className="block w-full rounded border border-[#EABE3F] px-12 py-3 text-sm font-medium text-white hover:bg-[#EABE3F] focus:outline-none focus:ring active:bg-[#55D6C2] sm:w-auto transition-all duration-500"
                   href="#nosotros"
                 >
                   Nosotros
                 </a>
                 <a
-                  className="block w-full rounded border border-[#55D6C2] px-12 py-3 text-sm font-medium text-white hover:bg-[#55D6C2] focus:outline-none focus:ring active:bg-[#55D6C2] sm:w-auto transition-all duration-500"
+                  className="block w-full rounded border border-[#732802] px-12 py-3 text-sm font-medium text-white hover:bg-[#732802] focus:outline-none focus:ring active:bg-[#55D6C2] sm:w-auto transition-all duration-500"
                   href="#services"
                 >
                   Nuestros Servicios
