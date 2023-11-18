@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 const Header = () => {
   return (
-    <Disclosure as="nav" className="bg-[#07031F] py-6  xl:py-20">
+    <Disclosure as="nav" className="bg-[#070707] py-6  xl:py-20">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
