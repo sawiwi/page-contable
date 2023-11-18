@@ -1,5 +1,6 @@
 import React from 'react'
 import { iconList } from '../../components/icons/index'
+import Logo from '../../assets/img/logoVero.png'
 
 
 const Footer = () => {
@@ -53,9 +54,17 @@ const Footer = () => {
               </div>
           </div>
           <div className='xl:w-3/6'>
-              <h2 className='w-86 pb-10 text-2xl mt-10 xl:mt-28 text-center uppercase'>
+              {/* <h2 className='w-86 pb-10 text-2xl mt-10 xl:mt-28 text-center uppercase'>
                   <h1 className='uppercase font-bold text-[110px]'>Logo</h1>
-              </h2>       
+              </h2>        */}
+                <div className="flex justify-center items-center">
+                  <img
+                    className="h-60 w-86 cursor-pointer pb-1 mt-4 xl:mt-4"
+                    src={Logo}
+                    alt="CYVM"
+
+                  />
+                </div>
           </div>
       </div>
  </footer>
