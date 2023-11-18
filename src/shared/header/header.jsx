@@ -1,6 +1,6 @@
 import { Disclosure, } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '../../logo.svg'
+import Logo from '../../assets/img/logoVero.png'
 
 const navigation = [
   { name: 'Inicio', href: '#', current: true },
@@ -14,18 +14,19 @@ function classNames(...classes) {
 
 const Header = () => {
   return (
-    <Disclosure as="nav" className="bg-[#07031F]">
+    <Disclosure as="nav" className="bg-[#07031F] py-6  xl:py-20">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               
-              <div className="flex flex-1 items-center justify-center sm:justify-between">
+              <div className="flex flex-1 items-center justify-end sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
+                    className="h-28 xl:h-48 w-auto cursor-pointer"
                     src={Logo}
-                    alt="Your Company"
+                    alt="CYVM"
+
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -35,8 +36,8 @@ const Header = () => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-[#1a1a58] text-white' : 'text-gray-300 hover:bg-[#1a1a58] hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current ? ' border-b-2  rounded-none text-white' : 'text-gray-300 ',
+                          'rounded-none px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
