@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <section className="bg-[url('https://talentocontable.cl/wp-content/uploads/2022/03/backtalento.jpg')] bg-cover bg-center h-[300px] sm:h-[600px] pt-16 pb-14">
+      <section className="bg-[url('https://talentocontable.cl/wp-content/uploads/2022/03/backtalento.jpg')] bg-local bg-no-repeat h-[600px]  pt-16 ">
         <div className='max-w-[1200px] mx-auto h-full flex justify-center'>
           <div className='w-0 lg:w-[52.633%]'></div>
           <div className='w-full lg:w-[47.367%] flex justify-center items-center'>
