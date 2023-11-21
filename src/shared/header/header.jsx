@@ -1,20 +1,19 @@
 import { Disclosure, } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '../../assets/img/logoVero.png'
+//import Logo from '../../assets/img/logoVero.png'
+import NavigationItem from '../navigation/NavigationItem';
+import NavMobile from '../navigation/NavMobile';
 
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
-  { name: 'Nosotros', href: '#', current: false },
-  { name: 'Servicios', href: '#', current: false },
+  { name: 'Inicio', href: 'HeroSectionScroll', current: false },
+  { name: 'Nosotros', href: 'AboutSectionScroll', current: false },
+  { name: 'Servicios', href: 'ServicesSectionScroll', current: false },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 const Header = () => {
+
   return (
-    <Disclosure as="nav" className="bg-[#070707] py-6  xl:py-20">
+    <Disclosure as="nav" className="bg-[#0707079d] py-6 fixed w-full backdrop-blur-sm">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -22,27 +21,19 @@ const Header = () => {
               
               <div className="flex flex-1 items-center justify-end sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  {/* <img
                     className="h-28 xl:h-48 w-auto cursor-pointer"
                     src={Logo}
                     alt="CYVM"
-
-                  />
+                  /> */}
+                  <h1 className='text-white text-5xl font-bold tracking-widest'>
+                    CYVM
+                  </h1>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? ' border-b-2  rounded-none text-white' : 'text-gray-300 ',
-                          'rounded-none px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                    {navigation.map((item,index) => (
+                      <NavigationItem key={index} menuItem={item}/>
                     ))}
                   </div>
                 </div>
@@ -63,22 +54,13 @@ const Header = () => {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
+          {({ close }) => (
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
+              {navigation.map((item,index) => (
+                <NavMobile key={index} menuItem={item} close={close}/>
               ))}
             </div>
+            )}
           </Disclosure.Panel>
         </>
       )}

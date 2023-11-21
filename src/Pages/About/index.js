@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <>
+    <section id='AboutSectionScroll'>
       <section className="bg-[url('https://talentocontable.cl/wp-content/uploads/2022/03/backtalento.jpg')] bg-local bg-no-repeat h-[600px]  pt-16 ">
         <div className='max-w-[1200px] mx-auto h-full flex justify-center'>
           <div className='w-0 lg:w-[52.633%]'></div>
@@ -32,7 +32,7 @@ const About = () => {
 
         </div>
       </section>
-    </>
+    </section>
   )
 }
 
