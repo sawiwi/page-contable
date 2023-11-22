@@ -3,7 +3,7 @@ import {iconList} from '../../components/icons/index'
 
 const ContactWsp = () => {
   const { AiOutlineWhatsApp } = iconList;
-  const phoneNumber = '953858376';
+  const phoneNumber = '953703029';
   const whatsappBusinessLink = `https://wa.me/${phoneNumber}`;
 
   const [isOpen, setIsOpen] = useState(false);

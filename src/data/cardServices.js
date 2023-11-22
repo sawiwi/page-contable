@@ -3,19 +3,19 @@
 export const DataCardServices = [
     {
         id:1,
-        title:'Contabilidades',
+        title:'Contabilidades.',
         description:'Desde que inicias tu emprendimiento, completa o simplificada.',
         href:'',      
     },
     {
         id:2,
-        title:'Procesos operacionales',
+        title:'Procesos operacionales.',
         description:'Renta anual 14D8, pyme transparente, Renta presunta, soc de profesionales, etc',
         href:'',      
     },
     {
         id:3,
-        title:'Remuneraciones',
+        title:'Remuneraciones.',
         description:'a',
         href:'',      
     },
@@ -27,13 +27,13 @@ export const DataCardServices = [
     },
     {
         id:5,
-        title:'Administración',
+        title:'Administración.',
         description:'Empresas en general',
         href:'',      
     },
     {
         id:6,
-        title:'Servicio de digitación y facturación',
+        title:'Servicio de digitación y facturación.',
         description:'a',
         href:'',      
     },
