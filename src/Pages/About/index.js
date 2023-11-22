@@ -3,16 +3,6 @@ import React from 'react'
 const About = () => {
   return (
     <section id='AboutSectionScroll'>
-      <section className="bg-[url('https://talentocontable.cl/wp-content/uploads/2022/03/backtalento.jpg')] bg-local bg-no-repeat h-[600px]  pt-16 ">
-        <div className='max-w-[1200px] mx-auto h-full flex justify-center'>
-          <div className='w-0 lg:w-[52.633%]'></div>
-          <div className='w-full lg:w-[47.367%] flex justify-center items-center'>
-            <div className='pt-11 pb-14 px-[50px] text-white bg-[#5f52bfa9] backdrop:blur-2xl rounded-lg'>
-              <h1 className="text-4xl font-bold leadi sm:text-5xl">Sobre Nosotros</h1>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="p-8 max-w-[1200px] mx-auto">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 items-stretch">
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm ">
@@ -30,6 +20,16 @@ const About = () => {
             </div>
           </div>
 
+        </div>
+      </section>
+      <section className="bg-[url('https://talentocontable.cl/wp-content/uploads/2022/03/backtalento.jpg')] bg-cover bg-fixed bg-no-repeat h-[600px]  pt-16 relative after:content-['*'] after:absolute after:w-full after:h-full after:bg-black/50 after:top-0 after:z-0">
+        <div className="max-w-[1200px] mx-auto h-full flex justify-center relative z-10">
+          <div className='w-0 lg:w-[52.633%]'></div>
+          <div className='w-full lg:w-[47.367%] flex justify-center items-center'>
+            <div className='pt-11 pb-14 px-[50px] text-white bg-[#5f52bfa9] backdrop:blur-2xl rounded-lg'>
+              <h1 className="text-4xl font-bold leadi sm:text-5xl">Sobre Nosotros</h1>
+            </div>
+          </div>
         </div>
       </section>
     </section>
