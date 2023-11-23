@@ -26,7 +26,7 @@ const Header = () => {
                     src={Logo}
                     alt="CYVM"
                   /> */}
-                  <h1 className='text-white text-4xl md:text-5xl font-bold tracking-widest'>
+                  <h1 className='text-[#EABE3F] text-4xl md:text-5xl font-bold tracking-widest'>
                     CYVM
                   </h1>
                 </div>

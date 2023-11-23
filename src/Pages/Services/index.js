@@ -10,7 +10,7 @@ const Services = () => {
         <h1 className='text-center font-bold text-5xl'>Nuestros Servicios</h1>
         <p className='text-center text-lg my-2'>Podemos ayudarte</p>
       </div>
-      <div className='grid grid-cols-2 w-full'>
+      <div className='grid grid-cols-1 xl:grid-cols-2 w-full'>
         {DataCardServices?.length > 0 ? DataCardServices?.map((item) => {
           return(
             <div className='col-span-1' key={item.id}>
