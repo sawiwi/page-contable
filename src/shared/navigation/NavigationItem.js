@@ -7,14 +7,14 @@ const NavigationItem = ({menuItem}) => {
   const handleActive = (viewName) => setViewActive(viewName);
   const handleInActive = (viewName) => setViewActive(viewName);
 
-  const ActiveClassTw = 'rounded-none px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100 cursor-pointer border-b-2  rounded-none text-white';
+  const ActiveClassTw = 'rounded-none px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100 cursor-pointer border-b-2  rounded-none text-primary';
   const NoActiveClassTw = 'rounded-none px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100 cursor-pointer text-gray-300 border-b-2 border-transparent';
 
   return (
     <>
       <Link 
         activeClass={ActiveClassTw}
-        className={viewActive ? ActiveClassTw : NoActiveClassTw} 
+        className={viewActive ? 'px-3 py-2 text-lg font-medium hover:border-b-2  hover:rounded-none hover:transition-all duration-100 cursor-pointer border-b-2  rounded-none text-primary-default border-primary-default' : NoActiveClassTw} 
         to={menuItem.href} 
         spy={true} 
         smooth={true} 

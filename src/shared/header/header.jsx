@@ -13,7 +13,7 @@ const navigation = [
 const Header = () => {
 
   return (
-    <Disclosure as="nav" className="bg-[#0707079d] py-6 fixed w-full backdrop-blur-sm z-50">
+    <Disclosure as="nav" className="bg-[#0707079d] py-3 md:py-6 fixed w-full backdrop-blur-sm z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -26,7 +26,7 @@ const Header = () => {
                     src={Logo}
                     alt="CYVM"
                   /> */}
-                  <h1 className='text-white text-5xl font-bold tracking-widest'>
+                  <h1 className='text-white text-4xl md:text-5xl font-bold tracking-widest'>
                     CYVM
                   </h1>
                 </div>
@@ -42,7 +42,7 @@ const Header = () => {
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span>
+                  <span className="sr-only">Abrir menú principal</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
