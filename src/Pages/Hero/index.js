@@ -4,7 +4,8 @@ import ImageSII from '../../assets/img/Logo de SII.webp'
 import ImageCMF from '../../assets/img/Logo de CMF.webp'
 import ImageDT from '../../assets/img/Logo de DT.webp'
 import ImagePR from '../../assets/img/Logo de Previred.webp'
-import Balanza from '../../assets/img/ley.png'
+import Balanza from '../../assets/img/balanza.jpeg'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   const color = 'bg-[#070707]';
@@ -15,10 +16,10 @@ const Hero = () => {
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-y-10 items-stretch">
             <div className="flex flex-col rounded-md shadow-sm text-white justify-center">
               <p className="mx-1 max-w-xl sm:text-3xl/relaxed font-semibold">
-                Servicios de contabilidad
+                Outsourcing Contable
               </p>
               <h1 className="bg-gradient-to-r from-[#EABE3F] via-[#c05b28] to-[#a73e0a] bg-clip-text text-3xl font-bold text-transparent sm:text-5xl pb-5">
-                Déjanos la contabilidad a nosotros y concéntrate en tu negocio
+                Enfócate en el crecimiento de tu empresa, confía tu contabilidad con nosotros
               </h1>
 
               {/* <p className="mx-1 max-w-xl sm:text-xl/relaxed">
@@ -26,64 +27,52 @@ const Hero = () => {
               </p> */}
 
               <div className="mt-8 flex flex-wrap justify-center gap-4">
-                <a
-                  className="block w-full rounded border border-[#EABE3F] px-12 py-3 text-sm font-medium text-white hover:bg-[#EABE3F] focus:outline-none focus:ring ring-[#EABE3F] active:bg-[#EABE3F] sm:w-auto transition-all duration-500"
-                  href="#nosotros"
+                <Link 
+                  className={'block w-full rounded border border-[#EABE3F] px-12 py-3 text-sm font-medium text-white hover:bg-[#EABE3F] focus:outline-none focus:ring ring-[#EABE3F] active:bg-[#EABE3F] sm:w-auto transition-all duration-500 cursor-pointer'} 
+                  to='AboutSectionScroll'
+                  spy={true} 
+                  smooth={true} 
+                  offset={-150} 
+                  duration={500} 
                 >
                   Nosotros
-                </a>
-                <a
-                  className="block w-full rounded border border-[#a73e0a] px-12 py-3 text-sm font-medium text-white hover:bg-[#a73e0a] focus:outline-none focus:ring ring-[#a73e0a] active:bg-[#a73e0a] sm:w-auto transition-all duration-500"
-                  href="#services"
+                </Link>
+                <Link 
+                  className={'block w-full rounded border border-[#a73e0a] px-12 py-3 text-sm font-medium text-white hover:bg-[#a73e0a] focus:outline-none focus:ring ring-[#a73e0a] active:bg-[#a73e0a] sm:w-auto transition-all duration-500 cursor-pointer'} 
+                  to='ServicesSectionScroll'
+                  spy={true} 
+                  smooth={true} 
+                  offset={-140} 
+                  duration={500} 
                 >
                   Nuestros Servicios
-                </a>
+                </Link>
               </div>
             </div>
-            {/* <div className="grid grid-cols-3 grid-rows-3">
-              <div className='bg-white col-start-2 rounded-md my-3 mx-4 flex justify-center items-center overflow-hidden'>
-                <img src={Image1} alt="" className="" />
-              </div>
-              <div className='bg-white col-start-1 rounded-md my-3 mx-4 flex justify-center items-center overflow-hidden'>
-                <img src={Image2} alt="" className="" />
-              </div>
-              <div className='bg-white rounded-md my-3 mx-4 flex justify-center items-center overflow-hidden'>
-                <img src={Image3} alt="" className="" />
-              </div>
-              <div className='bg-white rounded-md my-3 mx-4 flex justify-center items-center overflow-hidden'>
-                <img src={Image4} alt="" className="" />
-              </div>
-
-              <div className='bg-white col-start-3 rounded-md my-3 mx-4 flex justify-center items-center overflow-hidden'>
-                <img src={Image5} alt="" className="" />
-              </div>
-
-            </div> */}
             <div className='flex justify-center'>
 
               <div className="relative h-[500px] w-[500px] flex items-center justify-center">
                 <div className=" relative p-10 border-2 border-dashed rounded-full border-spacing-4 border-gray-400/50">
-                  <button className="profile_item left-[20px] -top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+
+                  <button className="profile_item left-[10px] -top-[15px] sm:left-[20px] sm:-top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
                     <img src={ImagePR} alt="" className="" />
                     </span>
                   </button>
 
-                  <button className="profile_item right-[20px] -top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                  <button className="profile_item right-[10px] -top-[15px] sm:right-[20px] sm:-top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
                     <img src={ImageCMF} alt="" className="" />
                     </span>
                   </button>
 
-
-
-                  <button className="profile_item bottom-28 -left-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                  <button className="profile_item bottom-[4.6rem] -left-10 sm:bottom-28 sm:-left-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
                     <img src={ImageTGR} alt="" className="" />
                     </span>
                   </button>
 
-                  <button className="profile_item bottom-28 -right-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                  <button className="profile_item bottom-[4.6rem] -right-10 sm:bottom-28 sm:-right-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
                     <img src={ImageDT} alt="" className="" />
                     </span>
@@ -95,13 +84,14 @@ const Hero = () => {
                     </span>
                   </button>
 
-                  <button className="profile_item w-[280px] h-[280px] p-1 border-2 rounded-full hover:border-gray-400/50 cursor-pointer transition-all duration-500 z-0">
-                    <div className="w-full bg-white h-full flex items-center justify-center p-2 rounded-full active:scale-95 hover:scale-95 object-cover transition-all duration-500">
-                      <span className="w-40 h-40 inline-block">
+                  <button className="profile_item w-[220px] sm:w-[280px] h-[220px] sm:h-[280px] p-1 border-2 rounded-full hover:border-gray-400/50 cursor-pointer transition-all duration-500 z-0">
+                    <div className="w-full bg-white h-full overflow-hidden rounded-full active:scale-95 hover:scale-95 object-cover transition-all duration-500">
+                      <span className="w-full h-40 inline-block">
                         <img src={Balanza} alt="" className="drop-shadow-lg" />
                       </span>
                     </div>
                   </button>
+
                 </div>
               </div>
 
