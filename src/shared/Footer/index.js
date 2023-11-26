@@ -57,14 +57,18 @@ const Footer = () => {
               <div className='h-28 text-center xl:text-start mt-8 xl:mt-14'>
                   <ul className='list-none flex justify-around xl:justify-evenly '>
                       <li className='mb-2'>
-                          <button className='h-12 w-12 bg-none text-[#EABE3F] hover:bg-[#EABE3F]  border-2 border-[#EABE3F] rounded-full px-[20%] hover:text-slate-50'>
-                              <FaFacebookF className='h-6 w-6'/>
-                          </button>
+                        <a href='https://www.facebook.com/cyvm.contabilidad?mibextid=ZbWKwL' rel='noreferrer' target='_blank'>
+                          <div className='h-12 w-12 bg-none text-[#EABE3F] hover:bg-[#EABE3F]  border-2 border-[#EABE3F] rounded-full px-[20%] py-2 hover:text-slate-50'>
+                             <FaFacebookF className='h-6 w-6'/>
+                          </div>
+                          </a>
                       </li>
                       <li className='mb-2'>
-                          <button className='h-12 w-12 bg-none text-[#EABE3F] hover:bg-[#EABE3F] border-2 border-[#EABE3F]  rounded-full px-[22%] hover:text-slate-50'>
-                              <FaInstagram className='h-8 w-6'/>
-                          </button>
+                            <a href='https://instagram.com/cyvm_contabilidad?igshid=OGQ5ZDc2ODk2ZA==' rel='noreferrer' target='_blank'>
+                                <button className='h-12 w-12 bg-none text-[#EABE3F] hover:bg-[#EABE3F] border-2 border-[#EABE3F]  rounded-full px-[22%] hover:text-slate-50'>
+                                    <FaInstagram className='h-8 w-6'/>
+                                </button>
+                            </a>
                       </li>
                       {/* <li className=''>
                           <button className='h-14 w-14 bg-none text-[#EABE3F] hover:bg-[#EABE3F] border-2 border-[#EABE3F]  rounded-full px-[25%] hover:text-slate-50'>
