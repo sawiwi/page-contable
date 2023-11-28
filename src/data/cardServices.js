@@ -10,13 +10,13 @@ export const DataCardServices = [
     {
         id:2,
         title:'Procesos operacionales.',
-        description:'Calidad de servicio, tenemos los mejores profesionales',
+        description:'Calidad de servicio, tenemos los mejores profesionales.',
         href:'',      
     },
     {
         id:3,
         title:'Proceso de remuneraciones.',
-        description:'Ciclo completo, liquidaciones mensuales, pagos de cotizaciones previsionales, retenciones, emisión LRE e informes por trabajador, ingreso DT',
+        description:'Ciclo completo, liquidaciones mensuales, pagos de cotizaciones previsionales, retenciones, emisión LRE e informes por trabajador, ingreso DT.',
         href:'',      
     },
     {
@@ -40,7 +40,7 @@ export const DataCardServices = [
     {
         id:6,
         title:'Conciliación bancaria-pericias contables.',
-        description:'Tendrás el control y supervisión de tus finanzas',
+        description:'Tendrás el control y supervisión de tus finanzas.',
         href:'',      
     }
 ]
