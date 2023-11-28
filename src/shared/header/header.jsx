@@ -1,6 +1,6 @@
 import { Disclosure, } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-//import Logo from '../../assets/img/logoVero.png'
+import Logo from '../../assets/img/Logopit_.png'
 import NavigationItem from '../navigation/NavigationItem';
 import NavMobile from '../navigation/NavMobile';
 
@@ -21,14 +21,14 @@ const Header = () => {
               
               <div className="flex flex-1 items-center justify-end sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  {/* <img
-                    className="h-28 xl:h-48 w-auto cursor-pointer"
+                  <img
+                    className="h-28 xl:h-56 w-auto cursor-pointer"
                     src={Logo}
                     alt="CYVM"
-                  /> */}
-                  <h1 className='text-[#EABE3F] text-4xl md:text-5xl font-bold tracking-widest'>
+                  />
+                  {/* <h1 className='text-[#EABE3F] text-4xl md:text-5xl font-bold tracking-widest'>
                     CYVM
-                  </h1>
+                  </h1> */}
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

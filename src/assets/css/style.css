@@ -1,6 +1,7 @@
 .card p {
-    line-height: 20px;
-    color: #666;
+    line-height: 25px;
+    color: #242424;
+    font-weight: 500;
   }
   
   .card p.small {
@@ -32,7 +33,7 @@
     display: block;
     position: relative;
     max-width: 600px;
-    height: 145px;
+    height: 150px;
     max-height: 150px;
     background-color: rgba(78, 78, 78, 0.1);
     border-radius: 4px;
