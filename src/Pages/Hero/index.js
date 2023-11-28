@@ -29,15 +29,15 @@ const Hero = () => {
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <Link 
                   className={'block w-full rounded border border-[#EABE3F] px-12 py-3 text-sm font-medium text-white hover:bg-[#EABE3F] focus:outline-none focus:ring ring-[#EABE3F] active:bg-[#EABE3F] sm:w-auto transition-all duration-500 cursor-pointer'} 
-                  to='AboutSectionScroll'
+                  to='OurServicesScroll'
                   spy={true} 
                   smooth={true} 
                   offset={-150} 
                   duration={500} 
                 >
-                  Nosotros
+                  Nuestros clientes
                 </Link>
-                <Link 
+                {/* <Link 
                   className={'block w-full rounded border border-[#a73e0a] px-12 py-3 text-sm font-medium text-white hover:bg-[#a73e0a] focus:outline-none focus:ring ring-[#a73e0a] active:bg-[#a73e0a] sm:w-auto transition-all duration-500 cursor-pointer'} 
                   to='ServicesSectionScroll'
                   spy={true} 
@@ -46,7 +46,7 @@ const Hero = () => {
                   duration={500} 
                 >
                   Nuestros Servicios
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className='flex justify-center'>

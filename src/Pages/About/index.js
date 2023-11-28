@@ -8,7 +8,7 @@ const About = () => {
     <section id='AboutSectionScroll'>
       <section className="p-8 max-w-[1200px] mx-auto">
         <div className='border-b-4 border-primary-default mb-10 max-w-3xl mx-auto'>
-          <h2 className='text-4xl font-bold sm:text-5xl text-center mb-2'>Sobre Nosotros</h2>
+          <h2 className='text-4xl font-bold sm:text-5xl text-center mb-2'>Nosotros</h2>
         </div>
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 items-stretch">
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm hover:-translate-y-2 transition-all duration-300">
