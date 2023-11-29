@@ -11,25 +11,25 @@ const OurClients = () =>{
                         <h1 className='text-center font-bold text-5xl'>Nuestros clientes</h1>
                         <p className='text-center text-lg my-2'>¿Conoces alguno?</p>
                     </div> 
-                    <div className="flex my-10 mt-1" >
-                        <div className="flex-1 h-16 rounded-lg xl:h-28 hover:scale-110 transition-all duration-150 ">
+                    <div className="grid grid-cols-1 xl:flex xl:my-10 xl:mt-1" >
+                        <div className="grid py-10 mb-20 xl:flex-1 h-16 rounded-lg xl:h-28 hover:scale-110 transition-all duration-150 ">
                             <a href="https://accionpanal.cl/"  target="_blank" rel="noreferrer">
                                 <img src="https://accionpanal.com/_next/static/media/accion-panal-logo.21d16b96.webp" className="xl:w-64 h-auto" alt="Logo Panal"></img>
                             </a>
                         </div>
-                        <div className="shrink-0 h-16 w-80 m-4 xl:mt-10 hover:scale-110 transition-all duration-150">
+                        <div className="grid py-10 mt-14 mb-20  xl:shrink-0 h-16 w-80 xl:m-4 xl:mt-10 hover:scale-110 transition-all duration-150">
                             <a href="https://aulenpropiedades.cl/"  target="_blank" rel="noreferrer">
                                 <img src="https://aulenpropiedades.cl/static/media/logoAulen.0aff8f045048e610b59f.png" className="xl:w-64 h-auto" alt="Logo Aulen"></img>
                             </a>                      
                         </div>
-                        <div className="flex-1 h-16 m-4 hover:scale-110 transition-all duration-150">
+                        <div className="grid py-10 mb-20 mt-6 xl:flex-1 h-16 m-4 hover:scale-110 transition-all duration-150">
                             <a href="https://unne.cl/"  target="_blank" rel="noreferrer">
                                 <img src="https://unnepropiedades.cl/assets/img/global/logo.png" className="xl:w-64 h-auto" alt="Logo Unne"></img>
                             </a>   
                         </div>
                     </div> 
-                    <div className="flex pl-36 pr-36 pb-36">
-                        <div className="flex-1 h-16 m-4 hover:scale-110 transition-all duration-150">
+                    <div className="grid grid-cols-1 xl:flex xl:pl-36 xl:pr-36 xl:pb-36">
+                        <div className="py-10 mb-20 xl:flex-1 h-16 m-4 hover:scale-110 transition-all duration-150">
                             <a href="https://www.truecapital.cl/"  target="_blank" rel="noreferrer">
                                 <img src="https://www.truecapital.cl/wp-content/uploads/2021/05/Variante_TrueCapital_RGB.png" className="mt-10" alt="Logo Unne"></img>
                             </a> 
@@ -39,9 +39,9 @@ const OurClients = () =>{
                                     xdxdxdd 2
                                 </div>
                         </div> */}
-                        <div className="flex-1 h-16 m-4 ">
+                        <div className="grid p-12 py-10 mt-10 mb-20 xl:flex-1 h-16 xl:m-4 ">
                             <a href="https://mhidraulica.cl/"  target="_blank" rel="noreferrer" >
-                                <img src={logoHidraulica}className="h-48 w-auto mx-56 hover:scale-110 transition-all duration-150" alt="Logo Hidraulica"></img>
+                                <img src={logoHidraulica}className="h-48 w-auto xl:mx-56 hover:scale-110 transition-all duration-150" alt="Logo Hidraulica"></img>
                             </a> 
                         </div>
                     </div>  

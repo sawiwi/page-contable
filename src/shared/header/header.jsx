@@ -23,7 +23,7 @@ const Header = () => {
               <div className="flex flex-1 items-center justify-end sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-28 xl:h-56 w-auto cursor-pointer"
+                    className="h-48 xl:h-56 w-auto cursor-pointer"
                     src={Logo}
                     alt="CYVM"
                   />
