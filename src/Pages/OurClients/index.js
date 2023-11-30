@@ -1,6 +1,7 @@
 import React from "react";
 
-import logoHidraulica from '../../assets/img/logo-hidraulica.jpg'
+import logoHidraulica from '../../assets/img/logo-hidraulica.jpg';
+import logoTrueCapital from '../../assets/img/logotruecapital.png'
 
 const OurClients = () =>{
     return(
@@ -31,7 +32,7 @@ const OurClients = () =>{
                     <div className="grid grid-cols-1 xl:flex xl:pl-36 xl:pr-36 xl:pb-36">
                         <div className="py-10 mb-20 xl:flex-1 h-16 m-4 hover:scale-110 transition-all duration-150">
                             <a href="https://www.truecapital.cl/"  target="_blank" rel="noreferrer">
-                                <img src="https://www.truecapital.cl/wp-content/uploads/2021/05/Variante_TrueCapital_RGB.png" className="mt-10" alt="Logo Unne"></img>
+                                <img src={logoTrueCapital} className="mt-10 xl:w-full xl:h-auto" alt="Logo True Capital"></img>
                             </a> 
                         </div>
                         {/* <div className="shrink-0 h-16 w-80 m-4">
