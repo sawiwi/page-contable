@@ -16,14 +16,14 @@ const About = () => {
             <img src={imageMision} alt="" className="h-80 aspect-video" />
             <div className="flex flex-col justify-center flex-1 p-6 bg-gray-100/70">
               <h3 className="text-3xl font-bold">Nuestra Misión</h3>
-              <p className="my-6 text-gray-600">Nuestro propósito es asesorar, capacitar, informar, planificar, controlar y automatizar las labores Contable - tributarias, jurídicas y laborales de nuestros clientes para su crecimiento en el mercado.</p>
+              <p className="my-6 text-gray-900">Nuestro propósito es asesorar, capacitar, informar, planificar, controlar y automatizar las labores Contable - tributarias, jurídicas y laborales de nuestros clientes para su crecimiento en el mercado.</p>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-col-reverse hover:-translate-y-2 transition-all duration-300">
             <img src={imageVision} alt="" className="h-80 aspect-video" />
             <div className="flex flex-col justify-center flex-1 p-6 bg-gray-100/70">
               <h3 className="text-3xl font-bold">Nuestra Visión</h3>
-              <p className="my-6 text-gray-600">Fidelizar nuestra área abarcando el mercado, potenciando nuestros recursos, fortalezas y estrategias para así ser reconocidos por la calidad de nuestros servicios.</p>
+              <p className="my-6 text-gray-900">Fidelizar nuestra área abarcando el mercado, potenciando nuestros recursos, fortalezas y estrategias para así ser reconocidos por la calidad de nuestros servicios.</p>
             </div>
           </div>
 

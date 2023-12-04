@@ -8,6 +8,7 @@ const navigation = [
     { id:1, name: 'Inicio', href: 'HeroSectionScroll', current: false },
     { id:2, name: 'Nosotros', href: 'AboutSectionScroll', current: false },
     { id:3, name: 'Servicios', href: 'ServicesSectionScroll', current: false },
+    { id:4, name: 'Nuestros clientes', href: 'OurCustomerScroll', current: false },
   ]
 
 const Footer = () => {

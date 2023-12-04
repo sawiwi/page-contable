@@ -16,10 +16,10 @@ const Hero = () => {
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-y-10 items-stretch">
             <div className="flex flex-col rounded-md shadow-sm text-white justify-center">
               <p className="mx-1 max-w-xl sm:text-3xl/relaxed font-semibold">
-                Outsourcing Contable
+                Asesoría Contable
               </p>
               <h1 className="bg-gradient-to-r from-[#EABE3F] via-[#c05b28] to-[#a73e0a] bg-clip-text text-3xl font-bold text-transparent sm:text-5xl pb-5">
-                Enfócate en el crecimiento de tu empresa, confía tu contabilidad con nosotros
+                Enfócate en el crecimiento de tu empresa, confianos tu contabilidad
               </h1>
 
               {/* <p className="mx-1 max-w-xl sm:text-xl/relaxed">
@@ -56,31 +56,31 @@ const Hero = () => {
 
                   <button className="profile_item left-[10px] -top-[15px] sm:left-[20px] sm:-top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-                    <img src={ImagePR} alt="" className="" />
+                    <img src={ImagePR} alt="PR logo" className="" />
                     </span>
                   </button>
 
                   <button className="profile_item right-[10px] -top-[15px] sm:right-[20px] sm:-top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-                    <img src={ImageCMF} alt="" className="" />
+                    <img src={ImageCMF} alt="CMF logo" className="" />
                     </span>
                   </button>
 
                   <button className="profile_item bottom-[4.6rem] -left-10 sm:bottom-28 sm:-left-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-                    <img src={ImageTGR} alt="" className="" />
+                    <img src={ImageTGR} alt="TGR logo" className="" />
                     </span>
                   </button>
 
                   <button className="profile_item bottom-[4.6rem] -right-10 sm:bottom-28 sm:-right-10 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-                    <img src={ImageDT} alt="" className="" />
+                    <img src={ImageDT} alt="DT logo" className="" />
                     </span>
                   </button>
 
                   <button className="profile_item right-[40%] -bottom-12 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
                     <span className="overflow-hidden block w-[70px] h-[70px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-                    <img src={ImageSII} alt="" className="" />
+                    <img src={ImageSII} alt="SII logo" className="" />
                     </span>
                   </button>
 

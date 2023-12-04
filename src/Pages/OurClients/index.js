@@ -5,7 +5,7 @@ import logoTrueCapital from '../../assets/img/logotruecapital.png'
 
 const OurClients = () =>{
     return(
-        <div id="OurServicesScroll">
+        <div id="OurCustomerScroll">
             <div  className=" xl:max-w-[1200px] xl:mx-auto ">
                 <div  className="mx-10 my-28">   
                     <div className='py-10'>
