@@ -10,6 +10,7 @@ const HeadPage = ({children}) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="contador, contabilidad, outsourcing, contable, empresa, crecimiento, clientes" />
                 <link rel="icon" href="/favicon.ico" />
+        
             </Helmet>
         </HelmetProvider>
     )
