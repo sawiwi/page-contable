@@ -6,6 +6,7 @@ import { DataCardServices } from '../../data/cardServices';
 const Services = () => {
   return (
     <div id='ServicesSectionScroll' className='grid-cols-1 mx-10 xl:max-w-[1200px] xl:mx-auto  xl:flex  my-20 mb-8'>
+
       <div className='xl:py-10 xl:mt-36'>
         <h1 className='text-center font-bold text-5xl'>Nuestros Servicios</h1>
         <p className='text-center text-lg my-2'>Podemos ayudarte</p>
