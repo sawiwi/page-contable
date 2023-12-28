@@ -11,9 +11,10 @@ const Hero = () => {
   const color = 'bg-[#070707]';
   return (
     <>
-      <div id='HeroSectionScroll' className={`min-h-[616px] ${color} pt-28 xl:pt-40`}>
-        <div className={`px-4 py-8 max-w-[1276px] mx-auto ${color}`}>
+      <div id='HeroSectionScroll' className={`min-h-[816px]  pt-28 xl:pt-40`}>
+        <div className={`px-4 py-16 xl:py-8 max-w-[1276px] mx-auto`}>
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-y-10 items-stretch">
+
             <div className="flex flex-col rounded-md shadow-sm text-white justify-center">
               <p className="mx-1 max-w-xl sm:text-3xl/relaxed font-semibold">
                 Asesoría Contable
@@ -51,7 +52,7 @@ const Hero = () => {
             </div>
             <div className='flex justify-center'>
 
-              <div className="relative h-[500px] w-[500px] flex items-center justify-center">
+              <div className="relative h-[350px] w-[500px] flex items-center justify-center">
                 <div className=" relative p-10 border-2 border-dashed rounded-full border-spacing-4 border-gray-400/50">
 
                   <button className="profile_item left-[10px] -top-[15px] sm:left-[20px] sm:-top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
@@ -94,10 +95,10 @@ const Hero = () => {
 
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+     <div class="absolute xl:-top-20  inset-0 -z-10  xl:h-[790px] w-full items-center  px-5 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#a73e0a_100%)]"></div>
       </div>
       
     </>
