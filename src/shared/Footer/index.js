@@ -93,7 +93,6 @@ const whatsappBusinessLink = `https://wa.me/${phoneNumber}`;
                     rel="noopener noreferrer">53703029</a>
                 </div>
             </div>    
-            <div class="absolute xl:-top-20  inset-0 -z-10 h-full xl:h-[500px] w-full items-center px-5 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#a73e0a_100%)]"></div> 
         </div>         
   
  </footer>
