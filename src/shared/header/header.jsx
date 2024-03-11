@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Nosotros', href: 'AboutSectionScroll', current: false },
   { name: 'Servicios', href: 'ServicesSectionScroll', current: false },
   { name: 'Nuestros clientes', href: 'OurCustomerScroll', current: false },
+  { name: 'Contacto', href: 'FormScroll', current: false },
 ]
 
 const Header = () => {
