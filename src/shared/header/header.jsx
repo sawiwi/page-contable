@@ -5,11 +5,11 @@ import NavigationItem from '../navigation/NavigationItem';
 import NavMobile from '../navigation/NavMobile';
 
 const navigation = [
-  { name: 'Inicio', href: 'HeroSectionScroll', current: false },
-  { name: 'Nosotros', href: 'AboutSectionScroll', current: false },
-  { name: 'Servicios', href: 'ServicesSectionScroll', current: false },
-  { name: 'Nuestros clientes', href: 'OurCustomerScroll', current: false },
-  { name: 'Contacto', href: 'FormScroll', current: false },
+  { name: 'Inicio', href: 'HeroSectionScroll', current: false, offset:-150 },
+  { name: 'Nosotros', href: 'AboutSectionScroll', current: false, offset:-150 },
+  { name: 'Servicios', href: 'ServicesSectionScroll', current: false, offset:-150 },
+  { name: 'Nuestros clientes', href: 'OurCustomerScroll', current: false, offset:-150 },
+  { name: 'Contacto', href: 'FormScroll', current: false, offset:-85  },
 ]
 
 const Header = () => {
