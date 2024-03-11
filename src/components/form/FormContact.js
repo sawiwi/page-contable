@@ -120,9 +120,8 @@ const FormContact = () =>{
     
     return(
         <>
-        <div className="my-24 flex items-center justify-center">
+        <div className="my-5 mb-10 flex items-center justify-center">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Formulario de Contacto</h2>
                 <form name="FormSubmit" onSubmit={onFormSubmit}>
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
