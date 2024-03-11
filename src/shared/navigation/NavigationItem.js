@@ -18,7 +18,7 @@ const NavigationItem = ({menuItem}) => {
         to={menuItem.href} 
         spy={true} 
         smooth={true} 
-        offset={-150} 
+        offset={menuItem.offset} 
         duration={500} 
         onSetActive={() => handleActive(true)} 
         onSetInactive={() => handleInActive(false)}
