@@ -1,6 +1,8 @@
 import React from "react";
 import logoHidraulica from '../../assets/img/logo-hidraulica.jpg';
 import logoTrueCapital from '../../assets/img/logotruecapital.png'
+import logoBidata from '../../assets/img/clients/logobidata.png'
+import logoNexgen from '../../assets/img/clients/logoNexgen.webp'
 
 const OurClients = () =>{
     return(
@@ -22,20 +24,32 @@ const OurClients = () =>{
                             img={"https://aulenpropiedades.cl/static/media/logoAulen.0aff8f045048e610b59f.png"} 
                             alt="Logo Aulen"
                         />
-                        <ImageCard 
+                        {/* <ImageCard 
                             href={"https://unne.cl/"} 
                             img={"https://unnepropiedades.cl/assets/img/global/logo.png"} 
                             alt="Logo Unne"
-                        />
-                        <ImageCard 
+                        /> */}
+                        {/* <ImageCard 
                             href={"https://www.truecapital.cl/"} 
                             img={logoTrueCapital} 
                             alt="Logo True Capital"
-                        />
+                        /> */}
                         <ImageCard 
                             href={"https://mhidraulica.cl/"} 
                             img={logoHidraulica}
                             alt="Logo Hidraulica"
+                        />
+                         <ImageCard 
+                            href={"https://bidata.cl/"} 
+                            img={logoBidata}
+                            alt="Logo Bidata"
+                            className="bg-gray-200/40 p-4 rounded-md"
+                        />
+                        <ImageCard 
+                            href={"https://becauseyes.cl/"} 
+                            img={logoNexgen}
+                            alt="Logo Nexgen"
+                            className="rounded-full"
                         />
                     </div> 
                     {/* <div className="flex my-10" >
@@ -62,9 +76,9 @@ const OurClients = () =>{
     )
 }
 
-const ImageCard = ({href,img,alt}) => {
+const ImageCard = ({href,img,alt, className}) => {
     return (
-        <div className="p-3 w-1/3 min-w-[300px] flex justify-center items-center hover:scale-110 transition-all duration-150">
+    <div className={`${className} p-3 w-1/3 min-w-[300px] flex justify-center items-center hover:scale-110 transition-all duration-150`}>
             <a href={href} target="_blank" rel="noreferrer" >
                 <img src={img} alt={alt} className="max-h-[192px] max-w-[256px] hover:scale-110 transition-all duration-150" ></img>
             </a>  

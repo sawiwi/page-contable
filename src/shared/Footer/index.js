@@ -12,8 +12,10 @@ const navigation = [
   ]
 
 const Footer = () => {
-const phoneNumber = '953703029';
+const phoneNumber = '965191105';
+const emailBusiness = 'contabilidad@cyvm.cl'
 const whatsappBusinessLink = `https://wa.me/${phoneNumber}`;
+
   const { FaFacebookF, FaInstagram } = iconList;
   return (
     <footer className='grid bg-[#0c0c0c] px-10 xl:pt-10  xl:px-20  backdrop-blur-xl' >
@@ -83,13 +85,13 @@ const whatsappBusinessLink = `https://wa.me/${phoneNumber}`;
         <div className='grid grid-cols-2 xl:max-w-[1375px] xl:mx-60 mb-5'>
             <div className='cols-span-1 text-start'>
                 <div className=''>
-                    <p className='text-primary-default font-light'>contacto@cyvm.cl</p>
+                    <p className='text-primary-default font-light'>{emailBusiness}</p>
                 </div>
             </div>
             <div className='cols-span-1 text-end' >
                 <div className='text-primary-default font-light hover:text-[#f3f3f3]'>
                     +56 9 <a href={whatsappBusinessLink} target='_blank' 
-                    rel="noopener noreferrer">53703029</a>
+                    rel="noopener noreferrer">65191105</a>
                 </div>
             </div>     
         </div>         
